@@ -1,0 +1,17 @@
+{
+  "name": "mind-meld",
+  "version": "1.0.0",
+  "description": "Cooperative real-time multiplayer word game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/multiplayer.test.js",
+    "test:live": "node --test test/live-multiplayer.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
